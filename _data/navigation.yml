@@ -1,14 +1,14 @@
 colors:
   hamburger-color: '#ffffff'
-  background-color: '#859f9f'
+  background-color: '#304532'
   textarea-background-color: '#bccaca'
-  border-color: '#ffffff'
-  link-color: '#2f3031'
-  hover-link-color: '#ffffff'
-  exit-color: '#2f3031'
-  exit-hover-color: '#ffffff'
-fonts: 
-  link-font: 'Shrikhand, cursive;'
+  border-color: '#304532'
+  link-color: '#dde6dd'
+  hover-link-color: '#e4a65a'
+  exit-color: '#dde6dd'
+  exit-hover-color: '#e4a65a'
+fonts:
+  link-font: Roboto, sans-serif
 social-link-colors:
   icon-color: '#859f9f'
   background-color: '#ffffff'
