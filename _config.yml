@@ -1,0 +1,281 @@
+page_blocks: []
+_array_structures:
+  content-blocks:
+    values:
+      - label: Floating Socials
+        icon: groups
+        value: 
+          _section-type: floating-socials
+          description: To change the colors, go to data → general → social links. To change the colors, go to data → navigation → social link colors
+      - label: Hero
+        icon: star
+        value:
+          _section-type: hero
+          hero-color:
+          hero-font:
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out. 
+          content-block-link:
+          hero-image:
+          hero:
+      - label: Text Area
+        icon: article
+        value:
+          _section-type: textarea
+          colors:
+            background-color: 
+            text-color: 
+            subheading-color: 
+            top-line-color: 
+            left-line-color:
+            link-color:
+            hover-color:
+          fonts:
+            subheading-font: 
+            text-font: 
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.   
+          content-block-link:
+          textarea_html:
+          subheading:
+      - label: Carousel
+        icon: view_carousel
+        value:
+          _section-type: carousel
+          colors:
+            carousel-background-color: 
+            carousel-textarea-background-color: 
+            carousel-border-color: 
+            carousel-heading-color: 
+            carousel-subheading-color: 
+            carousel-text-color: 
+            carousel-symbols-color:
+            link-color:
+            link-hover-color:
+          fonts:
+            carousel-heading-font:
+            carousel-subheading-font:
+            carousel-text-font:
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out.  
+          content-block-link:
+          background_image:
+          heading:
+          carousel:
+            textarea_html:
+            symbols:
+            ending:
+      - label: Fig Hover Block
+        icon: emoji_nature
+        value: 
+          _section-type: fig-hover-block
+          colors:
+            overlay-color: 
+            background-color:
+            border-color: 
+            heading-color: 
+            hover-text-color: 
+            subheading-color:
+            description: This subheading color is for the mobile version only. To change the subheading color on the laptop and desktop version, change the "hover text color". This will also change the color of the text.
+            button-background-color:
+            button-text-color: 
+          fonts:
+            heading-font:
+            subheading-font:
+            textarea-font: 
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out. 
+          content-block-link:
+          left:
+            heading:
+            background-image:
+          right:
+            subheading:
+            textarea:
+            background-image: 
+            button: 
+            button-link:
+      - label: Zuko Hover Block
+        icon: pets
+        value: 
+          _section-type: zuko-hover-block
+          colors:
+            overlay-color: 
+            background-color:
+            border-color: 
+            heading-color: 
+            hover-overlay-color: 
+            textarea-color: 
+            button-background-color:
+            button-text-color: 
+          fonts:
+            heading-font:
+            subheading-font:
+            textarea-font:
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out. 
+          content-block-link:
+          left:
+            subheading:
+            textarea:
+            background-image: 
+            button:
+            button-link: 
+          right:
+            subheading: 
+            textarea:
+            background-image:
+            button: 
+            button-link:           
+      - label: Gallery
+        icon: photo_camera
+        value:
+          _section-type: gallery
+          colors:
+            background-color:
+            heading-color:
+          fonts:
+            heading-font:
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out. 
+          content-block-link:
+          heading: Gallery
+          left:
+            top-image:  
+            bottom-image:  
+          middle:
+            top-image:
+            bottom-image: 
+          right:
+            top-image:
+            bottom-image: 
+      - label: Gallery with Links
+        icon: link
+        value:
+          _section-type: gallery-with-links 
+          colors:
+            background-color: 
+            subheading-color: 
+            text-color: 
+            text-background-color: 
+          fonts:
+            subheading-font:
+            text-font:
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out. 
+          content-block-link:
+          subheading:
+          images: 
+            first-image: 
+            second-image: 
+            third-image:  
+            fourth-image:
+          links:
+            first-link:
+            second-link: 
+            third-link:  
+            fourth-link:
+      - label: Form
+        icon: email
+        value:
+          _section-type: form
+          colors:
+            background-color:
+            textarea-background-color: 
+            border-color: 
+            heading-color:
+            subheading-color:
+            text-color:
+            button-color: 
+            button-text-color:
+          fonts:
+            heading-font:
+            subheading-font:
+            text-font:
+          description: If you would like this section to be linked through the navigation, then you'll need to add an ID. The ID can be added in the below box labeled "content block link". Your ID is 1 word describing the section it is leading to. For example- about. For more detailed instructions on how to link your pages and content blocks to the navigation, please go to kingcode.uk FaQs. If you don't want this section to link from the navigation, you can simply leave it out. 
+          content-block-link:
+          background_image:
+          heading:
+          top:
+            subheading:
+            text-option-1:
+            text-option-2:
+            text-option-3:
+          bottom:
+            subheading: 
+            message:
+          option-box:
+            subject:
+            option-1: 
+            option-2: 
+            option-3:
+            option-4: 
+          button: 
+            button-font:
+      - label: Media Kit
+        icon: business_center
+        value:
+          _section-type: media-kit 
+          colors:
+            top-background-color: 
+            bottom-background-color: 
+            heading-color: 
+            niche-color: 
+            line-color: 
+            reach-color: 
+            text-color: 
+            demographics-number-color: 
+            demographics-text-color: 
+            subheading-color: 
+            textarea-color: 
+          fonts:
+            heading-font: 
+            niche-font: 
+            reach-font: 
+            text-font:
+            demographics-number-fonts: 
+            demographics-text-font: 
+            subheading-font: 
+            textarea-font:
+          image: 
+          heading: 
+          niche: 
+          follower-count:
+          followers: 
+          username: 
+          subheading: 
+          textarea_html: 
+          demographics:
+            top-location:
+            location-percentage: 
+            reach: 
+            reach-in-numbers: 
+            gender:  
+            gender-percentage: 
+            engagement:
+            engagement-rate-percentage: 
+fonts:
+_select_data:
+  fonts:
+      - Cyrene
+      - La Obrige
+      - Lineal Simples
+      - Maglony
+      - Mak
+      - Misto
+      - Brushwell
+      - Open Sans, sans-serif
+      - Shrikhand, cursive
+      - Dream Avenue
+      - Amatic SC, cursive
+      - Barlow Condensed, sans-serif
+      - Belleza, sans-serif
+      - Kaushan Script, cursive
+      - Montserrat, sans-serif
+      - Oooh Baby, cursive
+      - Playfair Display, serif
+      - Poppins, sans-serif
+      - Quicksand, sans-serif
+      - Raleway, sans-serif
+      - Roboto, sans-serif
+
+      #  description: >-
+      #   If you would like that awesome scroll feature that happens when someone
+      #   clicks on a link in the navigation, then you'll need to add a page id.
+      #   The page id can be added in the below box labeled "link". Your id is a
+      #   short word describing the section it is leading to. For example- about.
+      #   If you don't want this section to link from the navigation, you can
+      #   simply leave it out.
