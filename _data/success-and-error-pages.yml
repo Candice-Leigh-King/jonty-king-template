@@ -1,7 +1,7 @@
 colors:
   background-color: '#dde6dd'
   heading-color: '#304532'
-  text-color: '#dde6dd'
+  text-color: '#304532'
 fonts:
   heading-font: Mak
   text-font: Roboto, sans-serif
