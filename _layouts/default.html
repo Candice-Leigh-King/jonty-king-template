@@ -40,11 +40,6 @@ layout: connect-tree
 
     {{content}}
 
-    {% for item in page.content-blocks %}
-    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[{{ forloop.index0 }}]">
-        <span class="cms-editor-button"></span>
-      {% include {{item._section-type}}.html %}
-    {% endfor %}
 
 
     <footer class="grid-center padded-top footer-background-color featured-bg">
