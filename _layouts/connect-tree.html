@@ -209,12 +209,6 @@
 
 {{content}}
 
-    {% for item in page.content-blocks %}
-    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[{{ forloop.index0 }}]">
-        <span class="cms-editor-button"></span>
-      {% include {{item._section-type}}.html %}
-    {% endfor %}
-
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
