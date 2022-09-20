@@ -23,8 +23,9 @@
 
 
  #content-block-{{forloop.index0}} .input-text
-  {background-color: {{item.colors.textarea-background-color}};} 
   {border-bottom: solid 2px {{item.colors.text-color}}; }
+
+  #content-block-{{forloop.index0}} .option-box  {background-color: {{item.colors.textarea-background-color}};} 
 
   #content-block-{{forloop.index0}} .input-text:focus 
   {border-bottom: solid 2px {{item.colors.subheading-color}}; }
@@ -162,8 +163,8 @@
           </div>
 
           <div class="floating-input  ">
-            <select class="input-text" name="services " id="services" required="">
-              <option class="input-text form-text-color">{{item.bottom.option-box.subject}}</option>
+            <select class="input-text option-box" name="services " id="services" required="">
+              <option class="input-text  form-text-color">{{item.bottom.option-box.subject}}</option>
               <option class="input-text form-text-color" value="{{item.bottom.option-box.option-1}}">{{item.bottom.option-box.option-1}}</option>
               <option class="input-text form-text-color" value="{{item.option-box.bottom.option-2}}">{{item.bottom.option-box.option-2}}</option>
               <option class="input-text form-text-color" value="{{item.bottom.option-box.option-3}}">{{item.bottom.option-box.option-3}}</option>
