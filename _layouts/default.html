@@ -206,7 +206,7 @@
   </head>
 
   <body>
-{{content}}
+
     <header class="grid-center">
       <div class=" col-11 center mob-hide">
         <a href="/" class="logo-home center "> 
@@ -242,7 +242,7 @@
       </nav>
     </header>
    
-
+    {{content}}
     {% for item in page.content-blocks %}
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[{{ forloop.index0 }}]">
         <span class="cms-editor-button"></span>
