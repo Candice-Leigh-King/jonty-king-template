@@ -8,10 +8,10 @@
       <meta name="viewport" content="width=device-width" />
 
       <!-- Meta data for SEO purposes. -->
-      <title> Ultimate Template for Creators </title>
+      <title> {{page.seo.title}} </title>
 
-      <meta name="description" content="Website templates for content creators and influencers. This website comes with a hidden media kit so creators can easily send media kits to prospect brands." />
-      <meta name="keywords" content="websites for content creators, websites for influencers," />
+      <meta name="description" content="{{page.seo.description}}" />
+      <meta name="keywords" content="{{page.seo.keywords}}" />
 
       <!-- meta data to tell the browser that your devide is responsive -->
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,26 +21,26 @@
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
       <!--  Social media sharing META Tags -->
-      <meta property="og:title" content="Ultimate Template for Creators" />
-      <meta property="og:description" content="Website templates for content creators and influencers. This website comes with a hidden media kit so creators can easily send media kits to prospect brands." />
-      <meta property="og:image" content="/images/website-template-by-chas.jpg" />
-      <meta property="og:url" content="https://kingcode.uk/" />
-      <meta name="twitter:card" content="Website templates for content creators and influencers. This website comes with a hidden media kit so creators can easily send media kits to prospect brands." />
-      <meta name="og:site_name" content="Ultimate Template for Creators" />
+      <meta property="og:title" content="{{page.seo.title}}" />
+      <meta property="og:description" content="{{page.seo.description}}" />
+      <meta property="og:image" content="{{ page.seo.social-share_image }}" />
+      <meta property="og:url" content="{{page.seo.url}}" />
+      <meta name="twitter:card" content="{{page.seo.description}}" />
+      <meta name="og:site_name" content="{{page.seo.title}}" />
 
       <!-- twitter card -->
-      <meta name="twitter:card" content="Website templates for content creators and influencers. This website comes with a hidden media kit so creators can easily send media kits to prospect brands." />
-      <meta name="twitter:description" content="Website templates for content creators and influencers. This website comes with a hidden media kit so creators can easily send media kits to prospect brands." />
-      <meta name="twitter:title" content="Ultimate Template for Creators" />
-      <meta name="twitter:site" content="https://kingcode.uk/" />
-      <meta name="twitter:creator" content="Ultimate Template for Creators" />
-      <meta name="twitter:image:alt" content="/images/website-template-by-chas.jpg" />
+      <meta name="twitter:card" content="{{page.seo.description}}" />
+      <meta name="twitter:description" content="{{page.seo.description}}" />
+      <meta name="twitter:title" content="{{page.seo.title}}" />
+      <meta name="twitter:site" content="{{page.seo.url}}" />
+      <meta name="twitter:creator" content="{{page.seo.title}}" />
+      <meta name="twitter:image:alt" content="{{ page.seo.social-share_image }}" />
 
       <!-- link to browser icon tag -->
-      <link rel="icon" href="/_site/uploads/logo-minimal-photography-mininal-minimalistic-1.png" type="image/x-icon" />
-      <link rel="apple-touch-icon" sizes="180x180" href="/_site/uploads/logo-minimal-photography-mininal-minimalistic-1.png" />
-      <link rel="icon" type="image/x-icon" sizes="32x32" href="/_site/uploads/logo-minimal-photography-mininal-minimalistic-1.png" />
-      <link rel="icon" type="image/x-icon" sizes="16x16" href="/_site/uploads/logo-minimal-photography-mininal-minimalistic-1.png" />
+      <link rel="icon" href="{{site.data.general.basics.browser-tag_image}}" type="image/x-icon" />
+      <link rel="apple-touch-icon" sizes="180x180" href="{{site.data.general.basics.browser-tag_image}}" />
+      <link rel="icon" type="image/x-icon" sizes="32x32" href="{{site.data.general.basics.browser-tag_image}}" />
+      <link rel="icon" type="image/x-icon" sizes="16x16" href="{{site.data.general.basics.browser-tag_image}}" />
       <link rel="manifest" href="/site.webmanifest" />
 
       <!-- GOOGLE FONTS -->
@@ -74,30 +74,30 @@
 
           /* --------------NAVIGATION------------ */
 
-          --hamburgerColor: #ffffff;
-          --backgroundColor: #304532;
-          --textareaBackgroundColor: #304532;
-          --BorderColor: #304532;
-          --linkColor: #dde6dd;
-          --linkFont: Roboto, sans-serif;
-          --HoverLinkColor: #e4a65a;
-          --iconColor: #304532;
-          --iconBackgroundColor: #dde6dd;
-          --iconBorderColor: #304532;
-          --iconHoverColor: #e4a65a;
-          --exitColor: #dde6dd;
-          --exitHoverColor: #e4a65a;
+          --hamburgerColor: {{site.data.navigation.colors.hamburger-color}};
+          --backgroundColor: {{site.data.navigation.colors.background-color}};
+          --textareaBackgroundColor: {{site.data.navigation.colors.textarea-background-color}};
+          --BorderColor: {{site.data.navigation.colors.border-color}};
+          --linkColor: {{site.data.navigation.colors.link-color}};
+          --linkFont: {{site.data.navigation.fonts.link-font}};
+          --HoverLinkColor: {{site.data.navigation.colors.hover-link-color}};
+          --iconColor: {{site.data.navigation.social-link-colors.icon-color}};
+          --iconBackgroundColor: {{site.data.navigation.social-link-colors.background-color}};
+          --iconBorderColor: {{site.data.navigation.social-link-colors.border-color}};
+          --iconHoverColor: {{site.data.navigation.social-link-colors.icon-hover-color}};
+          --exitColor: {{site.data.navigation.colors.exit-color}};
+          --exitHoverColor: {{site.data.navigation.colors.exit-hover-color}};
 
           /* -------------FOOTER----------- */
-          --footerBackgroundColor: #304532;
-          --footerBorderColor: #dde6dd;
-          --socialIconsBackgroundColor: #dde6dd;
-          --subfooterHoverColor: #e4a65a;
-          --subfooterFont: Roboto, sans-serif;
+          --footerBackgroundColor: {{site.data.footer.colors.background-color}};
+          --footerBorderColor: {{site.data.footer.colors.border-color}};
+          --socialIconsBackgroundColor: {{site.data.footer.colors.social-icons-background-color}};
+          --subfooterHoverColor: {{site.data.footer.colors.subfooter-hover-color}};
+          --subfooterFont: {{site.data.footer.fonts.subfooter-font}};
           
           
-          --mediaKitButton: ;
-          --mediaKitButtonHover: ;
+          --mediaKitButton: {{site.data.colors.media-kit.button_color}};
+          --mediaKitButtonHover: {{site.data.colors.media-kit.button-hover_color}};
 
           --editor-panel-zindex: 90;
       
@@ -207,11 +207,11 @@
 
 <style>
 
-  .connect-tree {background-color: #bccaca;}
+  .connect-tree {background-color: {{page.background-color}};}
 
-  .top-image-border {border: 2.5px solid #FFFFFF;}
+  .top-image-border {border: 2.5px solid {{page.top-image.border}};}
 
-  .bottom-image-border {border: 2.5px solid #FFFFFF;}
+  .bottom-image-border {border: 2.5px solid {{page.bottom-image.border}};}
 
   .padded {padding: 5%;}
 
@@ -240,47 +240,16 @@
     {
     padding: .8rem 2rem .6rem;
     border-radius: 100px;
-    border: 2.5px solid #D2966D;
-    background-color: #FFFFFF;
-    color: #D2966D;
-    font-family: Shrikhand, cursive;
+    border: 2.5px solid {{page.links.border}};
+    background-color: {{page.links.background-color}};
+    color: {{page.links.text-color}};
+    font-family: {{page.links.fonts}};
     }
 
   .connect-tree-links a:hover 
     {
-    color: #FFFFFF;
-    border: 2.5px solid #FFFFFF;
+    color: {{page.links.background-color}};
+    border: 2.5px solid {{page.links.background-color}};
     }
 
 </style>
-
-<body class="connect-tree grid-middle padded">
-
-  <div class="col-12 grid-left">
-    <div class="col-6-right">
-      <div class="connect-tree top-image padded">
-        <div class="connect-tree-image radius border-hover-image top-image-border " style="background-image:url('/images/through-the-lyns-content.jpeg'); ">
-          </div>
-        </div> 
-      </div>
-    </div>  
-  </div>
-  <div class="col-12 grid-center">
-    <div class="col-12-center editable connect-tree-links padded">
-      <p><a href="">TikTok</a></p>
-      <p><a href="">Youtube</a></p>
-      <p><a href="">Website</a></p>
-      <p><a href="">Media Kit</a></p>
-    </div>
-  </div>  
-  <div class="col-12 grid-right">
-    <div class="col-6">
-      <div class="connect-tree padded">
-        <div class="connect-tree-image border-hover-image bottom-image-border " style="background-image:url('/images/website-template-by-chas-x-king-code.jpeg'); ">
-          </div>
-        </div> 
-      </div>
-    </div>  
-  </div>
-</body>
-</html>
