@@ -12,5 +12,5 @@ fonts:
 social-link-colors:
   icon-color: '#304532'
   background-color: '#dde6dd'
-  border-color: '#304532'
+  border-color: '#dde6dd'
   icon-hover-color: '#e4a65a'
