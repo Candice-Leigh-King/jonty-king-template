@@ -1,7 +1,7 @@
 colors:
   hamburger-color: '#ffffff'
-  background-color: '#304532'
-  textarea-background-color: '#304532'
+  background-color: '#dde6dd'
+  textarea-background-color: '#dde6dd'
   border-color: '#304532'
   link-color: '#dde6dd'
   hover-link-color: '#e4a65a'
