@@ -8,7 +8,7 @@ defaults:
   -
     scope:
       path: "linking"
-      type: "pages" # previously `page` in Jekyll 2.2.
+      type: "pages" 
     values:
       layout: "connect-tree" # overrides previous default layout
 page_blocks: []
