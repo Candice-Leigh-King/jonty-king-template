@@ -10,7 +10,9 @@
   {font-family: {{item.fonts.heading-font}};}
 
  #content-block-{{forloop.index0}} .form-border-color
-  {border: solid 4px {{item.colors.border-color}};}
+  {
+  border: solid 4px {{item.colors.border-color}};
+  border-radius: {{item.colors.border-radius-number}};}
 
  #content-block-{{forloop.index0}} .textarea-background-color
   {background-color: {{item.colors.textarea-background-color}};}
