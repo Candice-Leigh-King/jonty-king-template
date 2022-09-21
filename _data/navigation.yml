@@ -5,7 +5,7 @@ colors:
   border-color: '#dde6dd'
   link-color: '#304532'
   hover-link-color: '#e4a65a'
-  exit-color: '#dde6dd'
+  exit-color: '#304532'
   exit-hover-color: '#e4a65a'
 fonts:
   link-font: Roboto, sans-serif
