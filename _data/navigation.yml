@@ -1,8 +1,8 @@
 colors:
   hamburger-color: '#ffffff'
-  background-color: '#dde6dd'
-  textarea-background-color: '#dde6dd'
-  border-color: '#dde6dd'
+  background-color: '#ffffff'
+  textarea-background-color: '#ffffff'
+  border-color: '#ffffff'
   link-color: '#304532'
   hover-link-color: '#e4a65a'
   exit-color: '#304532'
