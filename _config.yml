@@ -270,8 +270,9 @@ _array_structures:
             bubble-4:
               data: 
               title:
-          subheading: 
-          textarea_html: 
+          text-area:
+            subheading: 
+            textarea_html: 
           demographics:
             top-location:
             location-percentage: 
