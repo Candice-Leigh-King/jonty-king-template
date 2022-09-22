@@ -226,33 +226,37 @@ _array_structures:
         icon: business_center
         value:
           _section-type: media-kit 
-          colors:
+         colors:
             top-background-color: 
             bottom-background-color: 
-            heading-color: 
-            niche-color: 
+            image-border-color: 
             line-color: 
-            reach-color: 
-            text-color: 
+            title-1-color: 
+            title-2-color: 
+            title-3-color: 
+            title-4-color: 
+            title-5-color:
             demographics-number-color: 
             demographics-text-color: 
             subheading-color: 
             textarea-color: 
           fonts:
-            heading-font: 
-            niche-font: 
-            reach-font: 
-            text-font:
+            title-1-font:
+            title-2-font: 
+            title-3-font:
+            title-4-font: 
+            title-5-font:
             demographics-number-font: 
             demographics-text-font: 
             subheading-font: 
-            textarea-font:
-          image: 
-          heading: 
-          niche: 
-          follower-count:
-          followers: 
-          username: 
+            textarea-font: 
+          image:
+          info:
+            title-1: 
+            title-2: 
+            title-3: 
+            title-4:
+            title-5: 
           subheading: 
           textarea_html: 
           demographics:
