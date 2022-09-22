@@ -52,10 +52,16 @@
     {font-family: {{item.fonts.statistic-title-font}};}
 
   #content-blocks-{{forloop.index0}} .subheading-color
-    {color: {{item.colors.subheading-color}};}
+    {color: {{item.colors.text-area.subheading-color}};}
 
   #content-blocks-{{forloop.index0}} .subheading-font
     {font-family: {{item.fonts.subheading-font}};}
+
+  #content-blocks-{{forloop.index0}} .textarea-color
+    {color: {{item.colors.textarea-color}};}
+
+  #content-blocks-{{forloop.index0}} .textarea-font
+    {font-family: {{item.fonts.textarea-font}};}
     
 </style>
     
@@ -87,8 +93,8 @@
             <p class="col-12 center statistic-title-color statistic-title-font">{{item.statistics.bubble-4.title}}</p>
           </div>
         </div>
-        <h4 class="col-12 center subheading-color subheading-font ">{{item.subheading}}</h4>
-        <p class="col-12 center textarea-color textarea-font">{{item.textarea_html}}</p>
+        <h4 class="col-12 center subheading-color subheading-font ">{{item.text-area.subheading}}</h4>
+        <p class="col-12 center textarea-color textarea-font">{{item.text-area.textarea_html}}</p>
       </div>  
   </section>
 </section>
