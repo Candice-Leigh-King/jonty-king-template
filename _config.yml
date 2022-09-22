@@ -236,8 +236,8 @@ _array_structures:
             title-3-color: 
             title-4-color: 
             title-5-color:
-            demographics-number-color: 
-            demographics-text-color: 
+            statistic-data-color: 
+            statistic-title-color: 
             subheading-color: 
             textarea-color: 
           fonts:
@@ -246,8 +246,8 @@ _array_structures:
             title-3-font:
             title-4-font: 
             title-5-font:
-            demographics-number-font: 
-            demographics-text-font: 
+            statistic-data-font: 
+            statistic-title-font: 
             subheading-font: 
             textarea-font: 
           image:

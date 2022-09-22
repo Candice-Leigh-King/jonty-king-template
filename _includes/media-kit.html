@@ -36,21 +36,20 @@
   #content-blocks-{{forloop.index0}} .title-5
     {color: {{item.colors.title-5-color}};}
 
-  #content-blocks-{{forloop.index0}} .demographics-number-font
-    {font-family: {{item.fonts.demographics-number-font}};}
+  #content-blocks-{{forloop.index0}} .statistic-data-color
+    {color: {{item.colors.statistic-data-color}};}
 
-
-  #content-blocks-{{forloop.index0}} .demographics-number-color
-    {color: {{item.colors.demographics-number-color}};}
-
-  #content-blocks-{{forloop.index0}} .demographics-text-font
-    {font-family: {{item.fonts.demographics-text-font}};}
+  #content-blocks-{{forloop.index0}} .statistic-data-font
+    {font-family: {{item.colors.statistic-data-font}};}
 
   #content-blocks-{{forloop.index0}} .media-kit-border
-    { border: 2px solid {{item.colors.demographics-number-color}};}
+    { border: 2px solid {{item.colors.statistic-data-color}};}
 
-  #content-blocks-{{forloop.index0}} .demographics-text-color
-    {color: {{item.colors.demographics-text-color}};}
+  #content-blocks-{{forloop.index0}} .statistic-title-color
+    {color: {{item.colors.statistic-title-color}};}
+  
+  #content-blocks-{{forloop.index0}} .statistic-title-font
+    {font-family: {{item.colors.statistic-title-font}};}
 
   #content-blocks-{{forloop.index0}} .subheading-color
     {color: {{item.colors.subheading-color}};}
@@ -72,24 +71,24 @@
         <p class="col-12 center no-margin username title-5 padded-top">{{item.info.title-5}}</p>
         <div class="grid-center center col-9_sm-12">
           <div class="grid-center center col-3_xs-5 padded ">
-            <p class="col-12-middle number center radius media-kit-border demographics-number-font demographics-number-color"> {{item.statistics.bubble-1.data}}</p>
-            <p class="col-12 center demographics-text-font demographics-text-color ">{{item.statistics.bubble-1.title}}</p>
+            <p class="col-12-middle number center radius media-kit-border statistic-data-font statistic-data-color"> {{item.statistics.bubble-1.data}}</p>
+            <p class="col-12 center statistic-title-color statistic-title-font ">{{item.statistics.bubble-1.title}}</p>
           </div>
           <div class="grid-center center col-3_xs-5 padded ">
-            <p class="col-12-middle number center radius media-kit-border   demographics-number-font demographics-number-color"> {{item.statistics.bubble-2.data}}</p>
-            <p class="col-12 center demographics-text-font demographics-text-color">{{item.statistics.bubble-2.title}}</p>
+            <p class="col-12-middle number center radius media-kit-border statistic-data-font statistic-data-color"> {{item.statistics.bubble-2.data}}</p>
+            <p class="col-12 center statistic-title-color statistic-title-font">{{item.statistics.bubble-2.title}}</p>
           </div>
           <div class="grid-center center col-3_xs-5 padded ">
-            <p class="col-12-middle  number center radius media-kit-border   demographics-number-font demographics-number-color"> {{item.statistics.bubble-3.data}}</p>
-            <p class="col-12 center   demographics-text-font demographics-text-color">{{item.statistics.bubble-3.title}}</p>
+            <p class="col-12-middle number center radius media-kit-border statistic-data-font statistic-data-color"> {{item.statistics.bubble-3.data}}</p>
+            <p class="col-12 center statistic-title-color statistic-title-font">{{item.statistics.bubble-3.title}}</p>
           </div>
           <div class="grid-center center col-3_xs-5 padded ">
-            <p class="col-12-middle  number center radius media-kit-border   demographics-number-font demographics-number-color"> {{item.statistics.bubble-4.data}}</p>
-            <p class="col-12 center   demographics-text-font demographics-text-color">{{item.statistics.bubble-4.title}}</p>
+            <p class="col-12-middle  number center radius media-kit-border statistic-data-font statistic-data-color"> {{item.statistics.bubble-4.data}}</p>
+            <p class="col-12 center statistic-title-color statistic-title-font">{{item.statistics.bubble-4.title}}</p>
           </div>
         </div>
-        <h4 class="col-12 center   subheading-color subheading-font ">{{item.subheading}}</h4>
-        <p class="col-12 center  textarea-color textarea-font">{{item.textarea_html}}</p>
+        <h4 class="col-12 center subheading-color subheading-font ">{{item.subheading}}</h4>
+        <p class="col-12 center textarea-color textarea-font">{{item.textarea_html}}</p>
       </div>  
   </section>
 </section>
