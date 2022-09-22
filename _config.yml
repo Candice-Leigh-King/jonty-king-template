@@ -226,7 +226,7 @@ _array_structures:
         icon: business_center
         value:
           _section-type: media-kit 
-         colors:
+          colors:
             top-background-color: 
             bottom-background-color: 
             image-border-color: 
